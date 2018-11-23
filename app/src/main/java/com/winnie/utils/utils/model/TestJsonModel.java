@@ -10,15 +10,15 @@ public class TestJsonModel {
      * age : 20
      * alarmScore : 0.9
      * captureTime : 1539589617000
-     * capturedFullImage : http://p10.yokacdn.com/pic/YOKA/2018-10-08/U445P1TS1538985313_63663.jpg
-     * capturedImageUri : http://p1.yokacdn.com/pic/YOKA/2018-04-27/U10085P1TS1524815962_72560.jpg
+     * capturedFullImage : http://p10.jpg
+     * capturedImageUri : http://p1.jpg
      * certificateId : 500101199410294420
      * certificateType : 0
      * city : 重庆
      * country : 1
      * createTime : 1539595609000
      * deviceId : 1000002
-     * deviceName : 高科一号摄像头
+     * deviceName : 一号摄像头
      * dispositionUserId : 8032
      * faceDispositionId : 10001
      * faceId : 65
@@ -27,28 +27,28 @@ public class TestJsonModel {
      * faceLibraryType : 2
      * gender : 1
      * name : 张三
-     * targetImageUri : https://5b0988e595225.cdn.sohucs.com/images/20171124/b4a40aa308aa4d53a1db94ef62b3aba3.jpeg
-     * tollgateId : gaoke_1001
-     * tollgateName : 高科一号卡口
+     * targetImageUri : https://3aba3.jpeg
+     * tollgateId : 1001
+     * tollgateName : 一号卡口
      */
 
     public static String jsonStr = "{\n" +
             "\t\"age\": 20,\n" +
             "\t\"alarmScore\": 0.85,\n" +
             "\t\"captureTime\": 1539589617000,\n" +
-            "\t\"capturedFullImage\": \"http://p10.yokacdn.com/pic/YOKA/2018-10-08/U445P1TS1538985313_63663.jpg\",\n" +
-            "\t\"capturedImageUri\": \"http://p1.yokacdn.com/pic/YOKA/2018-04-27/U10085P1TS1524815962_72560.jpg\",\n" +
+            "\t\"capturedFullImage\": \"http://p10.jpg\",\n" +
+            "\t\"capturedImageUri\": \"http://p1.jpg\",\n" +
             "\t\"certificateId\": \"5001011994102944x0\",\n" +
             "\t\"certificateType\": \"0\",\n" +
             "\t\"city\": \"四川\",\n" +
             "\t\"country\": \"1\",\n" +
             "\t\"createTime\": 1539595730000,\n" +
             "\t\"deviceId\": \"1000002\",\n" +
-            "\t\"deviceName\": \"高科一号摄像头\",\n" +
+            "\t\"deviceName\": \"一号摄像头\",\n" +
             "\t\"dispositionUserId\": \"8032\",\n" +
-            "\t\"targetImageUri\": \"https://5b0988e595225.cdn.sohucs.com/images/20171124/b4a40aa308aa4d53a1db94ef62b3aba3.jpeg\",\n" +
-            "\t\"tollgateId\": \"gaoke_1001\",\n" +
-            "\t\"tollgateName\": \"高科一号卡口\",\n" +
+            "\t\"targetImageUri\": \"https://5b.jpeg\",\n" +
+            "\t\"tollgateId\": \"1001\",\n" +
+            "\t\"tollgateName\": \"一号卡口\",\n" +
             "\t\"faceDispositionId\": 10001,\n" +
             "\t\"faceId\": \"66\",\n" +
             "\t\"faceLibraryId\": \"lib_1001\",\n" +

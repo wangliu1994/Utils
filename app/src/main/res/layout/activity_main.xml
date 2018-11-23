@@ -1,18 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:orientation="vertical">
 
-</android.support.constraint.ConstraintLayout>
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Hello World!" />
+
+        <Button
+            android:id="@+id/json_object"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="json_object"
+            android:text="解析Json对象" />
+
+        <Button
+            android:id="@+id/json_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="json_list"
+            android:text="解析Json列表" />
+
+        <Button
+            android:id="@+id/json_lis1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="json_lis1"
+            android:text="解析Json列表1" />
+
+        <Button
+            android:id="@+id/gson_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="gson_list"
+            android:text="解析Gson列表"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:id="@+id/json_test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="json_test"
+            android:text="Json字段映射" />
+
+        <Button
+            android:id="@+id/gson_test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="gson_test"
+            android:text="Gson字段映射" />
+    </LinearLayout>
+</ScrollView>

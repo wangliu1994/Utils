@@ -23,7 +23,7 @@ public class TestBeanResponse {
             "\t\t\t\t\"id\": 116,\n" +
             "\t\t\t\t\"code\": \"1\",\n" +
             "\t\t\t\t\"short_name\": \"\",\n" +
-            "\t\t\t\t\"name\": \"嫌疑车辆\",\n" +
+            "\t\t\t\t\"name\": \"车辆\",\n" +
             "\t\t\t\t\"remark\": \"\",\n" +
             "\t\t\t\t\"type_id\": 9,\n" +
             "\t\t\t\t\"create_time\": \"2018-11-06T15:51:07.000+08:00\",\n" +
@@ -33,7 +33,7 @@ public class TestBeanResponse {
             "\t\t\t\t\"id\": 117,\n" +
             "\t\t\t\t\"code\": \"2\",\n" +
             "\t\t\t\t\"short_name\": \"\",\n" +
-            "\t\t\t\t\"name\": \"交通违法车辆\",\n" +
+            "\t\t\t\t\"name\": \"车辆1\",\n" +
             "\t\t\t\t\"remark\": \"\",\n" +
             "\t\t\t\t\"type_id\": 9,\n" +
             "\t\t\t\t\"create_time\": \"2018-11-06T15:51:07.000+08:00\",\n" +
@@ -43,7 +43,7 @@ public class TestBeanResponse {
             "\t\t\t\t\"id\": 118,\n" +
             "\t\t\t\t\"code\": \"3\",\n" +
             "\t\t\t\t\"short_name\": \"\",\n" +
-            "\t\t\t\t\"name\": \"肇事逃逸车辆\",\n" +
+            "\t\t\t\t\"name\": \"车辆2\",\n" +
             "\t\t\t\t\"remark\": \"\",\n" +
             "\t\t\t\t\"type_id\": 9,\n" +
             "\t\t\t\t\"create_time\": \"2018-11-06T15:51:07.000+08:00\",\n" +
@@ -53,7 +53,7 @@ public class TestBeanResponse {
             "\t\t\t\t\"id\": 119,\n" +
             "\t\t\t\t\"code\": \"4\",\n" +
             "\t\t\t\t\"short_name\": \"\",\n" +
-            "\t\t\t\t\"name\": \"被盗抢车辆\",\n" +
+            "\t\t\t\t\"name\": \"车辆3\",\n" +
             "\t\t\t\t\"remark\": \"\",\n" +
             "\t\t\t\t\"type_id\": 9,\n" +
             "\t\t\t\t\"create_time\": \"2018-11-06T15:51:07.000+08:00\",\n" +

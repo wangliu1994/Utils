@@ -46,16 +46,22 @@ public class JsonUitls {
     /**
      *  json解析列表
      */
-    public static<T> List<T> convertJsonListWithStirng(String json){
-        List<T> testBeans = JSONObject.parseObject(json, new TypeReference<List<T>>(){});
+    public static List<TestBean> convertJsonListWithStirng(String json){
+        List<TestBean> testBeans = JSONObject.parseObject(json, new TypeReference<List<TestBean>>(){});
         return testBeans;
     }
 
     /**
      *  Gson解析列表
+     *  使用泛型会解析不出来
      */
-    public static <T> List<T> convertGsonList(String json){
-        List<T> testBeans = new Gson().fromJson(json, new TypeToken<List<T>>(){}.getType());
+//    public static <T> List<T> convertGsonList(String json){
+//        List<T> testBeans = new Gson().fromJson(json, new TypeToken<List<T>>(){}.getType());
+//        return testBeans;
+//    }
+
+    public static List<TestBean> convertGsonList(String json){
+        List<TestBean> testBeans = new Gson().fromJson(json, new TypeToken<List<TestBean>>(){}.getType());
         return testBeans;
     }
 

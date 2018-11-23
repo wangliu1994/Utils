@@ -1,5 +1,7 @@
 package com.winnie.utils.utils.model;
 
+import android.support.annotation.NonNull;
+
 import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
@@ -10,11 +12,6 @@ import java.util.List;
  * @desc
  */
 public class TestBean {
-
-    /**
-     * paging : {"total":5,"page_num":0,"page_size":0}
-     * data : [{"id":116,"code":"1","short_name":"","name":"嫌疑车辆","remark":"","type_id":9,"create_time":"2018-11-06T15:51:07.000+08:00","update_time":"2018-11-06T15:51:07.000+08:00"},{"id":117,"code":"2","short_name":"","name":"交通违法车辆","remark":"","type_id":9,"create_time":"2018-11-06T15:51:07.000+08:00","update_time":"2018-11-06T15:51:07.000+08:00"},{"id":118,"code":"3","short_name":"","name":"肇事逃逸车辆","remark":"","type_id":9,"create_time":"2018-11-06T15:51:07.000+08:00","update_time":"2018-11-06T15:51:07.000+08:00"},{"id":119,"code":"4","short_name":"","name":"被盗抢车辆","remark":"","type_id":9,"create_time":"2018-11-06T15:51:07.000+08:00","update_time":"2018-11-06T15:51:07.000+08:00"},{"id":120,"code":"99","short_name":"","name":"其他","remark":"","type_id":9,"create_time":"2018-11-06T15:51:07.000+08:00","update_time":"2018-11-06T15:51:07.000+08:00"}]
-     */
 
     public static String jsonStr = "[\n" +
             "  {\n" +
@@ -28,7 +25,7 @@ public class TestBean {
             "        \"id\": 116,\n" +
             "        \"code\": \"1\",\n" +
             "        \"short_name\": \"\",\n" +
-            "        \"name\": \"嫌疑车辆\",\n" +
+            "        \"name\": \"车辆\",\n" +
             "        \"remark\": \"\",\n" +
             "        \"type_id\": 9,\n" +
             "        \"create_time\": \"2018-11-06T15:51:07.000+08:00\",\n" +
@@ -38,7 +35,7 @@ public class TestBean {
             "        \"id\": 117,\n" +
             "        \"code\": \"2\",\n" +
             "        \"short_name\": \"\",\n" +
-            "        \"name\": \"交通违法车辆\",\n" +
+            "        \"name\": \"车辆1\",\n" +
             "        \"remark\": \"\",\n" +
             "        \"type_id\": 9,\n" +
             "        \"create_time\": \"2018-11-06T15:51:07.000+08:00\",\n" +
@@ -48,7 +45,7 @@ public class TestBean {
             "        \"id\": 118,\n" +
             "        \"code\": \"3\",\n" +
             "        \"short_name\": \"\",\n" +
-            "        \"name\": \"肇事逃逸车辆\",\n" +
+            "        \"name\": \"车辆2\",\n" +
             "        \"remark\": \"\",\n" +
             "        \"type_id\": 9,\n" +
             "        \"create_time\": \"2018-11-06T15:51:07.000+08:00\",\n" +
@@ -58,7 +55,7 @@ public class TestBean {
             "        \"id\": 119,\n" +
             "        \"code\": \"4\",\n" +
             "        \"short_name\": \"\",\n" +
-            "        \"name\": \"被盗抢车辆\",\n" +
+            "        \"name\": \"车辆3\",\n" +
             "        \"remark\": \"\",\n" +
             "        \"type_id\": 9,\n" +
             "        \"create_time\": \"2018-11-06T15:51:07.000+08:00\",\n" +
@@ -137,7 +134,7 @@ public class TestBean {
          * id : 116
          * code : 1
          * short_name :
-         * name : 嫌疑车辆
+         * name : 车辆
          * remark :
          * type_id : 9
          * create_time : 2018-11-06T15:51:07.000+08:00

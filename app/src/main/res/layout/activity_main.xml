@@ -21,28 +21,28 @@
             android:id="@+id/json_object"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="json_object"
+            android:onClick="jsonObject"
             android:text="解析Json对象" />
 
         <Button
             android:id="@+id/json_list"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="json_list"
+            android:onClick="jsonList"
             android:text="解析Json列表" />
 
         <Button
             android:id="@+id/json_lis1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="json_lis1"
+            android:onClick="jsonList1"
             android:text="解析Json列表1" />
 
         <Button
             android:id="@+id/gson_list"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="gson_list"
+            android:onClick="gsonList"
             android:text="解析Gson列表"
             tools:ignore="OnClick" />
 
@@ -50,14 +50,14 @@
             android:id="@+id/json_test"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="json_test"
+            android:onClick="jsonTest"
             android:text="Json字段映射" />
 
         <Button
             android:id="@+id/gson_test"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="gson_test"
+            android:onClick="gsonTest"
             android:text="Gson字段映射" />
     </LinearLayout>
 </ScrollView>

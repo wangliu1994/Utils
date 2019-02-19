@@ -6,6 +6,7 @@ import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.TypeReference;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+import com.winnie.utils.utils.model.GsonDataBean;
 import com.winnie.utils.utils.model.TestBean;
 import com.winnie.utils.utils.model.TestBeanResponse;
 import com.winnie.utils.utils.model.TestJsonModel;
@@ -55,8 +56,8 @@ public class JsonUitls {
      *  Gson解析列表
      *  使用泛型会解析不出来
      */
-//    public static <T> List<T> convertGsonList(String json){
-//        List<T> testBeans = new Gson().fromJson(json, new TypeToken<List<T>>(){}.getType());
+//    public static <T> List<T> convertGsonList(String json1){
+//        List<T> testBeans = new Gson().fromJson(json1, new TypeToken<List<T>>(){}.getType());
 //        return testBeans;
 //    }
 
@@ -74,6 +75,12 @@ public class JsonUitls {
         return testBeanResponse;
     }
 
+    public static GsonDataBean convertJsonTest1(){
+        GsonDataBean gsonDataBean = JSONObject.parseObject(GsonDataBean.json2, GsonDataBean.class);
+        Log.d("TAG", gsonDataBean.toString());
+        return gsonDataBean;
+    }
+
     /**
      * gson使用 @SerializedName("my_name") public String name; 将my_name对应的值映射到name字段
      */
@@ -81,5 +88,11 @@ public class JsonUitls {
         TestBeanResponse testBeanResponse = new Gson().fromJson(TestBeanResponse.jsonStr, TestBeanResponse.class);
         Log.d("TAG", testBeanResponse.toString());
         return testBeanResponse;
+    }
+
+    public static GsonDataBean convertGsonTest1(){
+        GsonDataBean gsonDataBean = new Gson().fromJson(GsonDataBean.json3, GsonDataBean.class);
+        Log.d("TAG", gsonDataBean.toString());
+        return gsonDataBean;
     }
 }
